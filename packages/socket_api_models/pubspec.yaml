@@ -1,0 +1,24 @@
+name: socket_api_models
+description: Socket API Models package
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  notifications_models:
+    path: ../notifications_models
+  common:
+    path: ../common
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+
+dev_dependencies:
+  # Code generation
+  json_serializable: ^6.6.1
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
+
+  # Analysis
+  very_good_analysis: ^4.0.0+1

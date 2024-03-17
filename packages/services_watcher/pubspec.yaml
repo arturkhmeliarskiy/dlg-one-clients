@@ -1,0 +1,36 @@
+name: services_watcher
+description: Services watcher package
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  common:
+    path: ../common
+  sip_repository:
+    path: ../sip_repository
+  web_socket_client: ^0.1.0-dev.3
+  rest_api:
+    path: ../rest_api
+  dls_matrix_client:
+    path: ../matrix_client
+  storage:
+    path: ../storage
+  sip_ua: ^0.5.6
+  matrix: 0.18.3
+  bloc: ^8.1.1
+  dio: any
+  json_annotation: ^4.8.0
+  bloc_concurrency: ^0.2.1
+  connectivity_plus: ^3.0.4
+  freezed_annotation: ^2.2.0
+dev_dependencies:
+  # Code generation
+  json_serializable: ^6.6.1
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
+
+  # Analysis
+  very_good_analysis: ^4.0.0+1

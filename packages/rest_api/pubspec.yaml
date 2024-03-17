@@ -1,0 +1,28 @@
+name: rest_api
+description: Rest API package
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  common:
+    path: ../common
+  storage:
+    path: ../storage
+  dio: ^4.0.6
+  fresh_dio: ^0.3.2
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+  cross_file: ^0.3.3+4
+  intl: 0.17.0
+
+dev_dependencies:
+  # Code generation
+  json_serializable: ^6.6.1
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
+
+  # Analysis
+  very_good_analysis: ^4.0.0+1

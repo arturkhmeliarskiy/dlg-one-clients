@@ -1,0 +1,993 @@
+{
+  "@@locale": "ru",
+  "back": "Назад",
+  "authorization": "Авторизация",
+  "authorization_enter_password": "Введите пароль",
+  "login": "Войти",
+  "code_sent_to_email": "Укажите email, к которой привязан аккаунт DLS One",
+  "code_sent_to_email_useremail": "На email {useremail} отправлен код подтверждения",
+  "@code_sent_to_email_useremail": {
+    "placeholders": {
+      "useremail": {}
+    }
+  },
+  "code_resent_to_email_sec": "Код выслан. Повторная отправка через 00:{sec}",
+  "@code_resent_to_email_sec": {
+    "placeholders": {
+      "sec": {}
+    }
+  },
+  "create_password": "Придумайте пароль",
+  "done": "Готово",
+  "new_password": "Новый пароль",
+  "password": "Пароль",
+  "repeat_password": "Повторите пароль",
+  "confirm_code": "Код подтверждения",
+  "resend_code": "Выслать код повторно",
+  "next": "Далее",
+  "all_chats": "Все чаты",
+  "chats": "Чаты",
+  "personal_chats": "Личные чаты",
+  "important": "Важные",
+  "my_replies": "Мои ответы",
+  "groups": "Группы",
+  "add": "Добавить",
+  "online": "Онлайн",
+  "offline": "Оффлайн",
+  "email_example": "Alex_1@gmail.com",
+  "password_example": "seCRETpass00rD",
+  "email": "E-mail",
+  "create_access_code": "Задайте код доступа",
+  "repeat_access_code": "Повторите код доступа",
+  "type_pin_code": "Введите код доступа",
+  "exit": "Выйти",
+  "exit_from_account": "Выйти из аккаунта",
+  "cancel": "Отмена",
+  "reset": "Сбросить",
+  "you_sure_want_reset_pin": "Вы уверены, что хотите сбросить код доступа?",
+  "settings": "Настройки",
+  "change_password": "Изменение пароля",
+  "old_password": "Старый пароль",
+  "repeat_new_password": "Повторите новый пароль",
+  "the_passwords_are_different": "Пароли не совпадают",
+  "biometrics": "Биометрия",
+  "personal": "Персональные",
+  "type_message_text": "Введите текст сообщения...",
+  "show_info": "Показать информацию",
+  "mute": "Выключить уведомления",
+  "unmute": "Включить уведомления",
+  "information": "Информация",
+  "phone": "Телефон",
+  "job_position": "Должность",
+  "department": "Отдел",
+  "files": "файлов",
+  "link": "ссылка",
+  "links": "ссылок",
+  "images": "картинок",
+  "share": "Переслать",
+  "reply": "Ответить",
+  "add_to_important": "Добавить в важное",
+  "copy": "Копировать",
+  "edit": "Редактировать",
+  "delete": "Удалить",
+  "replies": "Ответы",
+  "group_adding": "Добавление группы",
+  "people_adding": "Добавление людей",
+  "skip": "Пропустить",
+  "title": "Название",
+  "dont_remember_password": "Не помню пароль",
+  "are_you_sure_want_reset_pincode": "Вы уверены, что хотите сбросить код доступа?",
+  "employee_name": "Имя сотрудника...",
+  "group_name": "Название группы",
+  "touch_id_on": "Touch ID включен",
+  "touch_id_off": "Touch ID выключен",
+  "face_id_on": "Face ID включен",
+  "face_id_off": "Face ID выключен",
+  "biometrics_on": "Биометрия включена",
+  "biometrics_off": "Биометрия выключена",
+  "notifications_unmute": "Уведомления включен",
+  "notifications_mute": "Уведомления выключен",
+  "name_job_department": "Имя, должность, отдел...",
+  "reply1": "ответ",
+  "replies2": "ответа",
+  "replies5": "ответов",
+  "from": "из",
+  "saveAs": "Сохранить как...",
+  "member1": "участник",
+  "member2": "участника",
+  "member5": "участников",
+  "rename": "Переименовать",
+  "delete_from_group": "Удалить из группы",
+  "delete_and_leave_group": "Удалить и покинуть",
+  "leave_group": "Покинуть группу",
+  "delete_and_leave_chat": "Удалить и выйти из чата",
+  "leave_chat": "Выйти из чата",
+  "message_search": "Поиск по сообщениям",
+  "chat": "Чат",
+  "group": "Группа",
+  "photo": "Фото",
+  "document": "Документ",
+  "show_all_count": "Показать все {count}",
+  "@show_all_count": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "hide_all_count": "Скрыть все {count}",
+  "@hide_all_count": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "show_full": "Показать полностью",
+  "save_to_gallery": "Сохранить в галерею",
+  "image_saved_to_gallery": "Изображение сохранено в галерею",
+  "error_image_saving_to_gallery": "Ошибка сохранения изображения в галерею",
+  "image_deleted": "Изображение удалено",
+  "eventDeleted": "Мероприятие удалено",
+  "call": "Звонок",
+  "hangup": "Принудительно завершить текущий звонок",
+  "select_receiver": "Выберите получателя",
+  "pin_is_invalid": "Введен неверный код",
+  "outgoing_call": "Исходящий звонок",
+  "missed_call": "Пропущенный звонок",
+  "calling_call": "Вызов",
+  "incoming_call": "Входящий звонок",
+  "canceled_call": "Отмененный звонок",
+  "undefined": "Неопределено",
+  "hour1": "час",
+  "hour2": "часа",
+  "hour5": "часов",
+  "minute1": "минута",
+  "minute2": "минуты",
+  "minute5": "минут",
+  "second1": "секунда",
+  "second2": "секунды",
+  "second5": "секунд",
+  "typing": "набирает текст...",
+  "repeat": "Повтор",
+  "group_admin": "Администратор группы",
+  "group_owner": "Владелец группы",
+  "hide": "Скрыть",
+  "loading": "Загрузка",
+  "error": "Ошибка",
+  "rename_group": "Переименование",
+  "change_members": "Изменение участников",
+  "video_call": "Видеозвонок",
+  "auth_phone_message": "Укажите email, к которому привязан аккаунт DLS One",
+  "auth_sms_sent_to_phone": "На email {param} отправлено письмо с кодом",
+  "@auth_sms_sent_to_phone": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "auth_sms_code": "Код из письма",
+  "auth_sms_code_resend": "Код выслан. Повторная отправка через {param}",
+  "@auth_sms_code_resend": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "yes": "Да",
+  "no": "Нет",
+  "enable_bio": "Использовать проверку по биометрии для входа в приложение?",
+  "video": "видео",
+  "audio": "аудио",
+  "photo1": "фото",
+  "photo2": "фото",
+  "photo5": "фото",
+  "link1": "ссылка",
+  "link2": "ссылки",
+  "link5": "ссылок",
+  "file1": "файл",
+  "file2": "файла",
+  "file5": "файлов",
+  "audio1": "аудиофайл",
+  "audio2": "аудиофайла",
+  "audio5": "аудиофайлов",
+  "video1": "видео",
+  "video2": "видео",
+  "video5": "видео",
+  "messages": "Сообщения",
+  "search": "Поиск",
+  "advanced": "Дополнительно",
+  "send": "Отправить",
+  "add_group": "Добавить группу",
+  "rec_video": "Записать видеосообщение",
+  "rec_audio": "Записать аудиосообщение",
+  "start_rec": "Начать запись",
+  "chats_empty": "Чатов нет",
+  "personal_data": "Личные данные",
+  "change": "Изменить",
+  "save": "Сохранить",
+  "name": "Имя",
+  "surname": "Фамилия",
+  "stop_rec": "Завершить",
+  "enter_data": "Введите данные",
+  "change_pin": "Изменение пин-кода",
+  "registration": "Регистрация",
+  "registration_text": "Укажите email, к которому будет привязан ваш аккаунт в DLS One",
+  "registration_tel_ex": "email@.dls.one",
+  "registration_sms_send_to_tel": "На email {param} отправлено письмо с кодом",
+  "@registration_sms_send_to_tel": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "registration_approve_code": "Код подтверждения",
+  "registration_approve_code_resend_time": "Код выслан. Повторная отправка через {param}",
+  "@registration_approve_code_resend_time": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "registration_resend_approve_code": "Выслать код повторно",
+  "registration_create_password": "Придумайте пароль",
+  "pick_from_gallery": "Загрузить из галереи",
+  "have_not_acc": "У вас нет аккаунта?",
+  "password_was_changed": "Пароль успешно изменен",
+  "reset_password": "Восстановление пароля",
+  "not_member": "Вы не являетесь участником данного чата",
+  "forwarded_ok": "Переслано успешно",
+  "snils": "СНИЛС",
+  "secondName": "Отчество",
+  "take_shot": "Сделать фото",
+  "group_list_is_empty": "Вы не состоите ни в одной группе",
+  "chat_mess_empty_pers": "Вы еще не общались с этим человеком",
+  "chat_mess_empty_group": "В группе нет ни одного сообщения",
+  "personal_list_is_empty": "Вы еще ни с кем не общались",
+  "search_by_people": "Поиск по людям",
+  "notifications": "Уведомления",
+  "mute_sound_notifications": "Выключить звук уведомлений",
+  "unmute_sound_notifications": "Включить звук уведомлений",
+  "notifications_schedule": "График звуковых уведомлений",
+  "monday": "Пн",
+  "tuesday": "Вт",
+  "wednesday": "Ср",
+  "thursday": "Чт",
+  "friday": "Пт",
+  "saturday": "Сб",
+  "sunday": "Вс",
+  "mute_interval": "Период тишины",
+  "mute_interval_desc": "Период времени, во время которого будет отключен весь звук уведомлений",
+  "do1": "до",
+  "hi": "Здравствуйте",
+  "link_adding": "Добавление ссылки",
+  "text": "Текст",
+  "linkUp": "Ссылка",
+  "start_enter_user_name": "Начните вводить @имя",
+  "delete_group_name": "Удалить группу \"{name}\"?",
+  "@delete_group_name": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "count_delete_from_group": "{count} будут автоматически удалены из группы",
+  "@count_delete_from_group": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "people1": "человек",
+  "people2": "человека",
+  "selectNewAdmin": "Выберите нового администратора",
+  "really_leave_group": "Вы действительно хотите покинуть группу?",
+  "text_editor": "Текстовый редактор",
+  "text_editor_exit": "Выйти из редактора?",
+  "text_editor_data_remove": "Все данные будут удалены.",
+  "text_editor_data_format_reset": "Форматирование будет сброшено",
+  "add_phone": "Добавление телефона",
+  "add_email": "Добавление e-mail",
+  "additional_phone_description": "Введите телефон, который Вы хотите добавить к аккаунту DLS",
+  "additional_email_description": "Введите e-mail, который Вы хотите добавить к аккаунту DLS",
+  "new_phone": "Новый телефон",
+  "new_email": "Новый e-mail",
+  "example_phone": "+7 931 456 69 78",
+  "confirm_code_from_email": "На почту {name} было отправлено письмо с кодом",
+  "@confirm_code_from_email": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "confirm_code_from_phone": "На телефон {name} отправлено СМС с кодом",
+  "@confirm_code_from_phone": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "auth_sms_code_phone": "Код из СМС",
+  "add_personal_data": "Введите личные данные",
+  "press_or_drag_to_pick": "Нажмите для выбора, или перетащите файл прямо сюда",
+  "i_am_not_name": "Я не {name}",
+  "@i_am_not_name": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "tasks": "Задачи",
+  "to_finish": "Завершить",
+  "checkpoint_04": "0 из 4",
+  "two_weeks": "2 недели",
+  "period_21": "21.09 - 03.10",
+  "storyPoint_026": "0/26",
+  "location_sample": "каб. 404",
+  "timeslot_9": "9:00 - 9:30",
+  "date_21": "21 окт",
+  "morning_planning": "Утренний планинг",
+  "planning": "Планирование",
+  "timeslot_13": "13:00 -13:30",
+  "date_24": "24 окт",
+  "review": "Ревью",
+  "two": " (2)",
+  "sprint_sample": "Спринт 12-2456",
+  "sprint_description": "Это двухнедельный спринт, по которому команда работает на постоянной основе",
+  "make_design": "Сделать дизайн",
+  "completed_0": "завершены (0)",
+  "inProgress_2": "в работе (0)",
+  "task_brandBook": "Брендбук",
+  "task_layout": "Верстка",
+  "task_fun": "Изобразить смешное",
+  "in_queue_2": "в очереди (0)",
+  "all_tasks": "Все задачи",
+  "task_1": "Задача 1",
+  "sprint": "Спринт",
+  "icon_set": "Нарисовать сет иконок",
+  "michael_michael": "Михаил Михайлов",
+  "team": "Команда",
+  "empty_tab": "Пока пусто",
+  "tab_comments": "Комментарии",
+  "details": "Детали",
+  "durability": "Длительность",
+  "period": "Период",
+  "eight": "8",
+  "three": "3",
+  "fifteen": "3",
+  "new_task": "Новая задача",
+  "name_task": "Название задачи",
+  "enter_name_task": "Введите название задачи",
+  "enter_description_task": "Введите описание задачи. Для начала редактирования нажмите на этот текст",
+  "the_task": "Надзадача",
+  "sprints": "Спринты",
+  "subtasks": "Подзадачи",
+  "more_subtasks": "Еще {param, plural, one{{param} подзадача} few{{param} подзадачи} many{{param} подзадач} other{{param} подзадачи}}",
+  "@more_subtasks": {
+    "placeholders": {
+      "param": {
+        "type": "int"
+      }
+    }
+  },
+  "dependencies_and_locks": "Зависимости и блокировки",
+  "depends": "Зависимость",
+  "blocks": "Блокировки",
+  "status": "Cтатус",
+  "priority": "Приоритет",
+  "performer": "Исполнитель",
+  "responsible2": "Исполнители",
+  "observers": "Наблюдатели",
+  "start_date": "Дата начала",
+  "end_date": "Дата окончания",
+  "days": "дней",
+  "commentsPlural": "{count, plural, one{{count} Ответ} few{{count} Ответа} many{{count} Ответов} other{{count} Ответы}}",
+  "@commentsPlural": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysPlural": "{days, plural, =0{0 дней} =1{1 день} one{1 день} few{{days} дня} many{{days} дней} other{{days} дней}}",
+  "@daysPlural": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "story_points": "Стори поинты",
+  "send_to_work": "Отправить в работу",
+  "add_planning": "Добавить планирование",
+  "add_review": "Добавить ревью",
+  "backlog": "Бэклог",
+  "priortiet": "Приортиет",
+  "still": "Еще",
+  "wrap": "Свернуть",
+  "checklist": "Чек-лист",
+  "add_file": "Добавить файл",
+  "add_file_from_doc": "Добавить файл из DOC",
+  "select_the_file_source": "Выберите источник файла, или перетащите его сюда",
+  "show": "Показывать",
+  "comments_and_actions": "комментарии и действия",
+  "comment_1": "Я сегодня не смогу придти на собрание.",
+  "comment_2": "'Представьте, что вам больше не нужно описывать детали проекта третьей стороне и объяснять все процессы. Вы мгновенно делитесь планом, на котором все действительно легко понять. Без создания аккаунта. Да, с DLS это очень просто. Вы мгновенно делитесь планом и потом происходит прекрасное'",
+  "comment_3": "назначил себя исполнителем",
+  "comment_4": "Вот ссылка на наш сайт - полюбуйся!",
+  "enter_message": "Введите текст сообщения...",
+  "not_selected": "не выбрано",
+  "list": "Список",
+  "kanban": "Канбан",
+  "gantt": "Гант",
+  "files_title": "Файлы",
+  "with_files": "С файлами",
+  "without_files": "Без файлов",
+  "my_role": "Моя роль",
+  "all_roles": "Все роли",
+  "executor": "Исполнитель",
+  "author": "Автор",
+  "responsible": "Ответственный",
+  "observer": "Наблюдатель",
+  "tags": "Теги",
+  "all_tags": "Все теги",
+  "tag_design": "Design",
+  "tag_it": "IT",
+  "tag_development": "Разработка",
+  "tag_hr": "HR",
+  "types_hint": "Тип",
+  "types_all": "Все типы",
+  "types_task": "Задача",
+  "types_document_flow": "Документооборот",
+  "all": "все",
+  "by_sprints": "по спринтам",
+  "status_all": "Все статусы",
+  "priorety_all": "Все приоритеты",
+  "status_todo": "в очереди",
+  "status_in_progress": "в работе",
+  "status_done": "завершена",
+  "status_hint": "Статус",
+  "profile": "Профиль",
+  "del_ava": "Отменить удаление невозможно. Вы действительно хотите удалить фото?",
+  "titleAddPhone": "Добавление телефона",
+  "contentAddPhone": "Введите номер телефона, который Вы хотите добавить к аккаунту DLS",
+  "inputLabelAddPhone": "Новый телефон",
+  "inputHintAddPhone": "796321456987",
+  "titleValidatePhone": "Подтверждение телефона",
+  "contentValidatePhone": "На телефон {param} отправлено СМС с кодом",
+  "@contentValidatePhone": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "inputLabelValidatePhone": "Код из СМС",
+  "inputHintValidatePhone": "0000",
+  "titleAddEmail": "Добавление e-mail",
+  "contentAddEmail": "Введите e-mail, который Вы хотите добавить к аккаунту DLS",
+  "inputLabelAddEmail": "Новый e-mail",
+  "inputHintAddEmail": "dls@dls.one",
+  "titleValidateEmail": "Подтверждение e-mail",
+  "contentValidateEmail": "На почту {param} было отправлено письмо с кодом",
+  "@contentValidateEmail": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "inputLabelValidateEmail": "Код из письма",
+  "inputHintValidateEmail": "0000",
+  "saved": "Сохранено",
+  "access_is_denied": "Доступ запрещен",
+  "add_mute_interval": "Добавить период тишины",
+  "name_not_set": "имя не указано",
+  "surname_not_set": "фамилия не указана",
+  "confirm_code_error": "Ошибка в коде подтверждения",
+  "profile_is_empty": "Профиль пользователя пуст",
+  "pins_not_same": "Пин-коды не совпадают, попробуйте снова",
+  "scan_bio_for_auth": "Отсканируйте отпечаток пальца для аутентификации",
+  "task_priority_critical": "критичный",
+  "task_priority_high": "высокий",
+  "task_priority_standart": "средний",
+  "task_priority_low": "низкий",
+  "task_priority_minor": "незначительный",
+  "deadline": "Дедлайн",
+  "hide_all": "Скрыть все",
+  "read_all_and_close": "Прочитать всё и закрыть",
+  "events": "Мероприятия",
+  "notifications_empty": "Нет уведомлений",
+  "participate": "Участвую",
+  "participate_not": "Не участвую",
+  "join": "Присоединиться",
+  "chatCallStart": "Начался звонок в чате {name}",
+  "@chatCallStart": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "chatCallEnd": "Завершился звонок в чате {name}",
+  "@chatCallEnd": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "chatPrivateMessage": "прислал(а) вам личное сообщение",
+  "chatGroupMessage": "прислал(а) сообщение в чат {name}",
+  "@chatGroupMessage": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "chatReplyMessage": "ответил(а) на ваше сообщение",
+  "chatAddYouToGroup": "добавил(а) вас в группу",
+  "chatAddGroupUsers": "добавил(а) пользователей в группу",
+  "chatRemoveGroupUsers": "удалил(а) пользователей из группы",
+  "chatAddEventComment": "добавил(а) комментарий к мероприятию",
+  "chatRemoveEventComment": "удалил(а) комментарий к мероприятию",
+  "chatAddTaskComment": "добавил(а) комментарий к задаче",
+  "chatRemoveTaskComment": "удалил(а) комментарий из задачи",
+  "chatChangeGroupName": "изменил(а) название группы",
+  "chatChangeGroupAvatar": "изменил(а) аватар группы",
+  "eventChangeAnyString": "",
+  "eventInvite": "пригласил(а) вас на мероприятие",
+  "eventRemove": "удалил(а) мероприятие",
+  "eventChangeDate": "изменил(а) дату мероприятия",
+  "eventChangeTime": "изменил(а) время мероприятия",
+  "eventChangeFormat": "изменил(а) тип мероприятия",
+  "eventChangePlace": "изменил(а) место мероприятия",
+  "eventAddFiles": "добавил(а) файлы к мероприятию",
+  "eventRemoveFiles": "удалил(а) файлы из мероприятия",
+  "eventLinkTasks": "привязал(а) задачи к мероприятию",
+  "eventUnlinkTasks": "отвязал(а) задачи от мероприятия",
+  "eventChangeName": "изменил(а) название мероприятия",
+  "eventRestrictAccess": "ограничил(а) вам доступ к мероприятию",
+  "eventExpandAccess": "предоставил(а) вам доступ к мероприятию",
+  "eventStart": "Началось мероприятие",
+  "eventEnd": "Завершилось мероприятие",
+  "taskChangeAnyString": "",
+  "taskAddYouAssigner": "назначил(а) вас исполнителем задачи",
+  "taskChangeAssigner": "изменил(а) исполнителя задачи",
+  "taskChangeStatus": "изменил(а) статус задачи",
+  "taskChangeDeadline": "изменил(а) дедлайн задачи",
+  "taskChangePriority": "изменил(а) приоритет задачи",
+  "taskAddFiles": "добавил(а) файлы задаче",
+  "taskRemoveFiles": "удалил(а) файлы задачи",
+  "taskAddWatchers": "добавил(а) наблюдателей задаче",
+  "taskRemoveWatchers": "удалил(а) наблюдателей задачи",
+  "taskAddDependencies": "добавил(а) зависимости задаче",
+  "taskRemoveDependencies": "удалил(а) зависимости задачи",
+  "taskAddSprints": "добавил(а) спринты задаче",
+  "taskRemoveSprints": "удалил(а) спринты задачи",
+  "taskAddEvents": "добавил(а) мероприятия задаче",
+  "taskRemoveEvents": "удалил(а) мероприятия задачи",
+  "taskAddTodos": "добавил(а) пункты в чек-лист задачи",
+  "taskRemoveTodos": "удалил(а) пункты в чек-листе задачи",
+  "taskAddChildTasks": "добавил(а) подзадачи задаче",
+  "taskRemoveChildTasks": "удалил(а)",
+  "taskRestrictAccess": "ограничил(а) вам доступ к задаче",
+  "taskExpandAccess": "предоставил(а) вам доступ к задаче",
+  "taskLock": "заблокировал(а) задачу",
+  "taskUnlock": "разблокировал(а) задачу",
+  "taskCallStart": "Начался групповой звонок в задаче",
+  "taskCallEnd": "Закончился групповой звонок в задаче",
+  "taskReminder": "{param} дедлайн задачи",
+  "@taskReminder": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "taskOverdue": "Просрочена задача",
+  "newContacts": "Новые контакты",
+  "tooltip_performer": "Add performer",
+  "tooltip_add_task": "Добавить задачу",
+  "tooltip_add_subtask": "Add subtask",
+  "tooltip_add_supertask": "Add supertask",
+  "tooltip_open_menu": "Open menu",
+  "show_entire_hierarchy": "Показать всю иерархию",
+  "groupAddPeople": "Добавление людей в группу",
+  "serverError": "К сожалению, на сервере произошла ошибка",
+  "appError": "К сожалению, произошла ошибка",
+  "startTypeForSearch": "Начните вводить текст для поиска...",
+  "searchResultsIsEmpty": "Ничего не найдено",
+  "chatNotFound": "Чат не найден",
+  "chatContainsOnlyYou": "В чате находитесь только вы",
+  "participates": "Участников",
+  "notEnoughRights": "Недостаточно прав",
+  "deleteChat": "Удалить чат?",
+  "chatMessageCreatedChat": "создал чат",
+  "chatMessageSendInvite": "добавил",
+  "chatMessageJoinedChat": "присоединился",
+  "chatMessageLeaveChat": "вышел из чата",
+  "chatMessageKickedChat": "выгнал",
+  "chatMessageChangedName": "сменил имя",
+  "chatMessageUnknownStatus": "неизвестный статус",
+  "chatMessageNewMessages": "Новые сообщения",
+  "chatMessageEdit": "Редактирование",
+  "chatMessageEditedAt": "{param} отредактировано",
+  "@chatMessageEditedAt": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "chatMessageDeleted": "сообщение удалено",
+  "chatMessageDeletedAt": "{param} удалено",
+  "@chatMessageDeletedAt": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "chatMessageAttachedFiles": "Прикреплённые файлы",
+  "chatMessageRemovedFromClient": "Удалено из клиента",
+  "chatMessageQuote": "Цитировать",
+  "chatMessageCount": "{count, plural, =0{{count} сообщений} one{{count} сообщение} few{{count} сообщения} other{{count} сообщений}}",
+  "@chatMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatLastMessageMeFormat": "Вы: {text}",
+  "@chatLastMessageMeFormat": {
+    "placeholders": {
+      "text": {}
+    }
+  },
+  "chatLastMessageFile": "Отправлен файл",
+  "chatLastMessageAudio": "Отправлено аудио",
+  "chatLastMessageVideo": "Отправлено видео",
+  "chatLastMessageImage": "Отправлено изображение",
+  "chatLastMessageNotice": "Отправлено уведомление",
+  "chatCommentsReplies": "Ответы",
+  "chatCommentsCloseTooltip": "Закрыть",
+  "chatCommentsCount": "{param} ответ(ов)",
+  "@chatCommentsCount": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "leaveGroupQuestion": "Покинуть группу '{param}'?",
+  "@leaveGroupQuestion": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "youLoseGroupData": "Вы потеряете доступ материалам группы",
+  "leave": "Покинуть",
+  "cancel2": "Отменить",
+  "setAdmin": "Назначить",
+  "setAsAdmin": "Предоставить права администратора",
+  "typeQueryToSearchInput": "Введите запрос в строку поиска",
+  "rightsChanged": "Права доступа изменены",
+  "xPeopleAutoDeleteFromGroup": "{param} человек(а) будут автоматически удалены из группы",
+  "@xPeopleAutoDeleteFromGroup": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "groupTotalAndOnline": "{param1} участник(а), {param2} онлайн",
+  "@groupTotalAndOnline": {
+    "placeholders": {
+      "param1": {},
+      "param2": {}
+    }
+  },
+  "kickAdmin": "Снять права администратора",
+  "wasOnline": "был(а) в сети",
+  "eventLocation": "Место проведения",
+  "eventConnection": "Связь",
+  "organizer": "Организатор",
+  "participantsBusy": "Занятость участников",
+  "members": "Участники",
+  "eventType": "Тип мероприятия",
+  "onlineName": "Онлайн",
+  "offlineName": "Офлайн",
+  "allDay": "Весь день",
+  "eventRepeat": "Повторять",
+  "membersCanInviteInfo": "Участники могут приглашать других",
+  "date": "Дата",
+  "time": "Время",
+  "me": "Я",
+  "meComma": "(я)",
+  "forToday": "на сегодня",
+  "forWeek": "на неделю",
+  "to_sprint": "В спринте {param}",
+  "minutesDuration": "{minutes, plural, =0{меньше минуты} =1{минуту} one{минуту} few{{minutes} минуты} many{{minutes} минут} other{{minutes} минут}}",
+  "@minutesDuration": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursDuration": "{hours, plural, =1{1 час} few{{hours} часа} many{{hours} часов} other{{hours} часов}}",
+  "@hoursDuration": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeBefore": "за {param}",
+  "@timeBefore": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "chooseTask": "Выберите задачу",
+  "everyday": "ежедневно",
+  "everyWeek": "еженедельно",
+  "everyMonth": "ежемесячно",
+  "weekOfMonth": "Неделя месяца",
+  "dayOfWeek": "День недели",
+  "weekFirst": "Первая",
+  "weekSecond": "Вторая",
+  "weekThird": "Третья",
+  "weekFourth": "Четвертая",
+  "amount_of_time": "{param} ч.",
+  "@amount_of_time": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "amountOfDays": "{param} д.",
+  "@amountOfDays": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "created_at": "Создана {param_1} в {param_2}",
+  "@created_at": {
+    "placeholders": {
+      "param_1": {},
+      "param_2": {}
+    }
+  },
+  "nowYouInCall": "На данный момент Вы уже находитесь в звонке, завершите его и попробуйте снова",
+  "ok": "OK",
+  "minimize": "Свернуть",
+  "maximize": "Развернуть",
+  "createEvent": "Создать мероприятие",
+  "chatMessageMenuSelect": "Выделить",
+  "enterNameEvent": "Введите название мероприятия",
+  "enderDescriptionEvent": "Введите описание мероприятия. Для начала редактирования нажмите на этот текст",
+  "all_files": "Все файлы",
+  "reset_everything": "Сбросить все",
+  "delete_date": "Удалить дату",
+  "areYouSure": "Вы уверены?",
+  "afterPowerLevelUpItCanChangeOnlyOwner": "После повышения уровня доступа изменить его сможет только владелец",
+  "selectNewOwner": "Выберите нового владельца группы",
+  "mustInvite": "Вы должны сначала добавить пользо\nвателя в чат, а он должен хотя бы \nодин раз войти в чат",
+  "mustVisit": "Назначаемый пользователь еще ни разу не был в чате",
+  "viewing": "Просмотр",
+  "serverTimeout": "Время ожидания ответа сервера истекло",
+  "networkError": "Сетевая ошибка",
+  "failedHostLookup": "Сервер недоступен, возможно отсутствует подключение к сети Интернет",
+  "unknownError": "Необработанная ошибка",
+  "userNotFound": "Пользователь не найден",
+  "noAccessToMicAndCamera": "Не удается получить доступ к камере или микрофону",
+  "serverRejectRequest": "Сервер отклонил запрос, попробуйте снова",
+  "userRejectYourCall": "Абонент отклонил ваш звонок",
+  "userBusy": "Абонент занят и не может принять звонок",
+  "userEndCall": "Абонент завершил звонок",
+  "callInitStep": "Подготовка звонка {count} из {total}",
+  "grantingAccess": "Предоставление доступа",
+  "grantingAccessNotificationQuestion": "Приложению требуются разрешения к отображению уведомлений, их можно предоставить через настройки, перейти в настройки?",
+  "grantingAccessMicOrCameraQuestion": "Приложению требуются доступы к микрофону и камере, их можно предоставить через настройки, перейти в настройки?",
+  "grantingAccessMicQuestion": "Приложению требуются доступ к микрофону, его можно предоставить через настройки, перейти в настройки?",
+  "grantingAccessCameraQuestion": "Приложению требуются доступ к камере, его можно предоставить через настройки, перейти в настройки?",
+  "@callInitStep": {
+    "placeholders": {
+      "count": {},
+      "total": {}
+    }
+  },
+  "currentCallIsEmpty": "Вы не принимаете участия ни в одном звонке",
+  "localStreamerIsEmpty": "Инициализация локального потока",
+  "countTotal": "{count} из {total}",
+  "@countTotal": {
+    "placeholders": {
+      "count": {},
+      "total": {}
+    }
+  },
+  "my_part": "Я {param}",
+  "@my_part": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "weeksCount": "{weeks, plural, =0{0 недель} =1{1 неделя} one{{weeks} неделя} few{{weeks} недели} many{{weeks} недель} other{{weeks} недель}}",
+  "@weeksCount": {
+    "placeholders": {
+      "weeks": {
+        "type": "int"
+      }
+    }
+  },
+  "goToSprint": "перейти в спринт",
+  "draft": "черновик",
+  "custom": "Пользовательская",
+  "unknown": "Неизвестный",
+  "repeatTill": "Повторять до",
+  "the_whole_hierarchy": "В режиме просмотра будут показаны \n задачи, связанные с Вашими, в которых \n вы не участвуете: \n ∙  Все задачи ниже по иерархии \n ∙  Одна задача выше по иерархии",
+  "register": "Зарегистрируйтесь",
+  "checking_mail": "Проверка почты",
+  "calendar": "Календарь",
+  "day": "День",
+  "week": "Неделя",
+  "month": "Месяц",
+  "affairs": "Дела",
+  "hideFinished": "Скрыть завершенные",
+  "forTheDay": "На день",
+  "termless": "Бессрочные",
+  "addEvent": "Добавить мероприятие",
+  "addTask": "Добавить дело",
+  "taskDeleteSuccess": "Задача успешно удалена",
+  "auth_login_subtitle": "Укажите e-mail, к которому привязан аккаунт DLS One",
+  "hello_name": "Здравствуйте, {name}",
+  "@hello_name": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "hint_name": "Иван",
+  "hint_surname": "Петров",
+  "blocking": "Блокирует",
+  "dependsFrom": "Зависит от",
+  "setMeAsResponsible": "Назначить себя ответственным",
+  "delete_email": "Удалить E-mail {email}?",
+  "@delete_email": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "delete_phone": "Удалить телефон {phone}?",
+  "@delete_phone": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "pickParentTask": "Выберите надзадачу",
+  "todo": "Дела",
+  "upcoming": "Предстоящие",
+  "dataWontBeSaved": "Введенные данные не будут сохранены",
+  "leaveFromPage": "Уйти со страницы",
+  "leaveWithoutSaving": "Уйти без сохранения",
+  "keepStay": "Остаться",
+  "recorderSwipeToCancel": "Влево - отмена",
+  "recorderStart": "Начать запись",
+  "recorderFinish": "Завершить",
+  "userLastOnline": "был(а) недавно",
+  "userPersonalInfo": "Персональная информация отсутствует",
+  "change_priority": "Изменить приоритет",
+  "change_status": "Изменить статус",
+  "add_a_performer": "Добавить исполнителя",
+  "add_deadline": "Добавить дедлайн",
+  "enter_name": "Введите название",
+  "listShow": "Показать",
+  "setTime": "Назначить время",
+  "indefinitely": "Без срока",
+  "enterTodoTitle": "Введите текст дела",
+  "addTodo": "Добавить дело",
+  "apply": "Применить",
+  "more": "Более {param}",
+  "@more": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "storypoints": "Сторипоинты",
+  "filters": "Фильтры",
+  "clear": "Очистить ({param})",
+  "@clear": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "today": "Сегодня",
+  "tomorrow": "Завтра",
+  "overdue": "Просроченные",
+  "and": "и",
+  "loadingDataError": "Ошибка при загрузке данных",
+  "general": "Общее",
+  "create_task": "Создать задачу",
+  "create_event": "Создать мероприятие",
+  "create_case": "Создать дело",
+  "createTaskFirst": "Сначала создайте задачу",
+  "createPrivateChatError": "Не удалось создать личный чат",
+  "in_the_queue": "В очереди ({param})",
+  "@in_the_queue": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "at_work": "В работе ({param})",
+  "@at_work": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "completed": "Завершены ({param})",
+  "@completed": {
+    "placeholders": {
+      "param": {}
+    }
+  },
+  "createTask": "Создать задачу",
+  "dateAndTime": "Дата и время",
+  "addTime": "Добавить время",
+  "addRepeat": "Добавить повтор",
+  "startTime": "Время начала",
+  "endTime": "Время окончания",
+  "unrepeatable": "Не повторяется",
+  "daily": "Каждый день",
+  "weekly": "Еженедельно",
+  "monthly": "Ежемесячно",
+  "monthlyDescription": "Ежемесячно, {month} нед, {day}",
+  "@monthlyDescription": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "space": "Пространство",
+  "companyStructure": "Структура компании",
+  "employeesList": "Список сотрудников",
+  "workSchedule": "Режим работы",
+  "errorMessageFormat": "Ошибка: {param}",
+  "@errorMessageFormat": {
+    "placeholders": {
+      "param": {
+        "type": "String"
+      }
+    }
+  },
+  "newTaskEvent": "Новое мероприятие",
+  "location": "Место",
+  "everyWeekDayInMonth": "Каждый {weekDay}, {weekNumber} неделя месяца",
+  "@everyWeekDayInMonth": {
+    "placeholders": {
+      "weekDay": {},
+      "weekNumber": {}
+    }
+  },
+  "employees": "Сотрудники",
+  "manager": "Руководитель",
+  "notAssigned": "Не назначен",
+  "chatChooseForward": "Выберите получателя",
+  "areNotAssigned": "Не назначены",
+  "newSprint": "Новый спринт",
+  "estimatedEndDate": "Предположительная дата окончания",
+  "add_task_event": "Добавить мероприятие",
+  "add_todo": "Добавить дело",
+  "toSprint": "В спринт",
+  "toBacklog": "В бэклог",
+  "all_performers": "Все исполнителеи",
+  "common": "Общее",
+  "deleteDepartment": "Удалить отдел",
+  "departmentName": "Название отдела",
+  "bloc": "Заблокировать",
+  "select": "Выбрать",
+  "authorized": "Авторизованные",
+  "unauthorized": "Не авторизованные",
+  "locked": "Заблокированные",
+  "unlocked": "Не заблокированные",
+  "lock": "Блокировка",
+  "selectAll": "Выбрать всех",
+  "move": "Переместить",
+  "addEmployeePosition": "+ Добавить должность",
+  "managerPosition": "Должность руководителя",
+  "addExisted": "Добавить существующего",
+  "addNew": "Добавить нового",
+  "permissionSetting": "Настройка прав",
+  "taskEditing": "Редактирование задач",
+  "onlyOwn": "только свои",
+  "allDepartment": "всего отдела",
+  "sprintEditing": "Редактирование cпринтов",
+  "eventEditing": "Редактирование мероприятий",
+  "spaceSetting": "Настройка пространства",
+  "reading": "просмотр",
+  "editing": "редактирование",
+  "employeePosition": "Должность сотрудника",
+  "positionName": "Название должности",
+  "positionNameLengthError": "Название должности должно быть длиннее 3 символов",
+  "select_chat": "Выберите чат",
+  "not_available_to_observer": "Изменение статуса в режиме \n“Наблюдатель” недоступно",
+  "not_available_to_observer_2": "Изменение статуса в режиме “Наблюдатель” недоступно"
+}

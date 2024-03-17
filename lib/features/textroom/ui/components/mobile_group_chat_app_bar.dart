@@ -1,0 +1,179 @@
+// ignore_for_file: public_member_api_docs
+
+import 'package:collection/collection.dart';
+import 'package:dls_matrix_client/dls_matrix_client.dart';
+import 'package:dls_one/const/enums.dart';
+import 'package:dls_one/core/core.dart';
+import 'package:dls_one/features/features.dart';
+import 'package:dls_one/features/home/presentation/bloc/global_chat_bloc.dart';
+import 'package:dls_one/features/textroom/ui/chat_group_menu_button.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:matrix/matrix.dart';
+
+class MobileGroupChatAppBar extends StatelessWidget
+    implements PreferredSizeWidget {
+  const MobileGroupChatAppBar({
+    required this.chatId,
+    required this.onTapBack,
+    required this.onTapCall,
+    required this.onMenuItemSelected,
+    required this.onHangupTap,
+    super.key,
+  });
+
+  final String chatId;
+  final VoidCallback? onTapBack;
+  final VoidCallback onTapCall;
+  final VoidCallback onHangupTap;
+  final ValueChanged<PopupMenuItems> onMenuItemSelected;
+
+  @override
+  Size get preferredSize => Size.fromHeight(60.h);
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<GlobalChatBloc, GlobalChatState>(
+      builder: (context, state) {
+        final chat = state.publicRooms.firstWhereOrNull((e) => e.id == chatId);
+        final title = chat?.getLocalizedDisplayname() ?? '';
+        final dontNotify = chat?.pushRuleState == PushRuleState.dontNotify;
+        return Container(
+          height: preferredSize.height,
+          padding: EdgeInsets.symmetric(horizontal: 16.w),
+          decoration: BoxDecoration(
+            border: Border(
+              bottom: BorderSide(
+                width: 1.h,
+                color: context.c_grey_stoke,
+              ),
+            ),
+          ),
+          child: Row(
+            children: [
+              GestureDetector(
+                behavior: HitTestBehavior.translucent,
+                onTap: onTapBack,
+                child: Assets.icons.back.svg(
+                  width: 18.w,
+                  height: 18.h,
+                  colorFilter: context.c_text_grey_color_filter,
+                ),
+              ),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 12.w),
+                  child: Center(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Row(
+                          children: [
+                            Assets.icons.usersAlt1.svg(
+                              width: 18.w,
+                              height: 18.h,
+                              colorFilter: context.c_text_grey_color_filter,
+                            ),
+                            SizedBox(width: 4.w),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Flexible(child: DLSHeaders.h3(title)),
+                                  if (dontNotify)
+                                    Padding(
+                                      padding: EdgeInsets.only(left: 4.w),
+                                      child: Assets.icons.bellSlash1.svg(
+                                        width: 18.w,
+                                        height: 18.h,
+                                        colorFilter:
+                                            context.c_placeholder_color_filter,
+                                      ),
+                                    )
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 4.sp),
+                          child: Row(
+                            children: [
+                              BlocBuilder<UserTypingBloc, UserTypingState>(
+                                builder: (context, userTypingState) {
+                                  /// если кто-то печатает
+                                  if (userTypingState.message.isNotEmpty) {
+                                    return Expanded(
+                                      child: SubtitleText(
+                                        text: userTypingState.message,
+                                      ),
+                                    );
+                                  }
+                                  if (chat == null) {
+                                    return const SizedBox();
+                                  }
+                                  return Expanded(
+                                    child: BlocBuilder<UsersBloc, UsersState>(
+                                      builder: (context, usersState) {
+                                        return DLSBody.s1421(
+                                          S.current.groupTotalAndOnline(
+                                            chat.getParticipants().length,
+                                            context
+                                                .read<UsersBloc>()
+                                                .roomOnline2(chat),
+                                          ),
+                                          color: context.c_text_grey,
+                                          maxLines: 1,
+                                        );
+                                      },
+                                    ),
+                                  );
+                                },
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.only(right: 14.w),
+                    child: GestureDetector(
+                      onTap: onTapCall,
+                      child: Assets.icons.phone1.svg(
+                        width: 18.w,
+                        height: 18.h,
+                        colorFilter: context.c_text_grey_color_filter,
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(right: 14.w),
+                    child: GestureDetector(
+                      onTap: onHangupTap,
+                      child: Assets.icons.phoneTimes1.svg(
+                        width: 18.w,
+                        height: 18.h,
+                        colorFilter: context.c_text_grey_color_filter,
+                      ),
+                    ),
+                  ),
+                  ChatGroupMenuButton(
+                    onMenuItemSelected: onMenuItemSelected,
+                    dontNotify: dontNotify,
+                    canDelete:
+                        context.read<DlsMatrixClient>().isMeOwnerOfChat(chatId),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}

@@ -1,0 +1,10 @@
+include: package:very_good_analysis/analysis_options.4.0.0.yaml
+
+analyzer:
+  exclude: [lib/**/*.g.dart, lib/generated**, lib/gen**, lib/**.freezed.dart, lib/**.g.dart, lib/**.gr.dart, lib/**.config.dart, lib/fork/**, audio_waveforms/**]
+
+linter:
+  rules:
+    sort_pub_dependencies: false
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false

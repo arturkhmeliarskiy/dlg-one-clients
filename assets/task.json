@@ -1,0 +1,86 @@
+{
+    "over_tasks": [
+        {   
+            "id": 9597070,
+            "title": "Создать дизайн инпута",
+            "paperclip": 1,
+            "status": "в очереди",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 2,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        },
+        {
+            "id": 9597071,
+            "title": "Создать дизайн кнопки",
+            "paperclip": 2,
+            "status": "в очереди",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 3,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        }
+    ],
+    "subtasks": [
+        {
+            "id": 9597072,
+            "title": "Создать дизайн инпута",
+            "paperclip": 1,
+            "status": "в очереди",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 2,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        },
+        {
+            "id": 9597073,
+            "title": "Создать дизайн кнопки",
+            "paperclip": 2,
+            "status": "в очереди",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 3,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        },
+        {
+            "id": 9597074,
+            "title": "Нарисовать инпут",
+            "paperclip": 2,
+            "status": "в работе",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 1,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        },
+        {
+            "id": 9597075,
+            "title": "Нарисовать кнопу",
+            "paperclip": 1,
+            "status": "в работе",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 1,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        },
+        {
+            "id": 9597076,
+            "title": "Вёрстка",
+            "paperclip": 1,
+            "status": "в очереди",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 2,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        },
+        {
+            "id":  9597077,
+            "title": "Изобразить что то",
+            "paperclip": 2,
+            "status": "в очереди",
+            "avatar": "https://media.licdn.com/dms/image/C4D03AQHHvy7zbKTbiQ/profile-displayphoto-shrink_800_800/0/1597594452892?e=1683158400&v=beta&t=IqHxBUI7rb62ihWf4tLzkX0lVrNJh933hE5w0kAABlk",
+            "hierarchy": 3,
+            "state": "approve",
+            "deadline": "2023-01-29T14:17:21.000000Z"
+        }
+    ]
+  }
